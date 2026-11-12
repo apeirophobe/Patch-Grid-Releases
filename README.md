@@ -1,9 +1,18 @@
 # Patch Grid Releases
 
-Signed macOS installers for Patch Grid apps, grouped by synth.
+Signed macOS installers for Patch Grid apps live in **[Releases](https://github.com/apeirophobe/Patch-Grid-Releases/releases)** — not in this git tree.
 
-## Layout
+## How releases are organized
 
-- `Prophet X/` — Prophet X Patch Grid installers (`.pkg` + `.sha256`)
+One GitHub Release per synth + version:
 
-Download the latest package from the synth folder, or use the raw file URL from GitHub.
+| Tag | Example |
+| --- | --- |
+| `prophet-x-X.Y.Z` | [prophet-x-0.9.8](https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8) |
+| `ob-6-X.Y.Z` | (future) |
+
+Each release attaches the `.pkg` and `.sha256` checksum.
+
+## Current downloads
+
+- **Prophet X** — [latest Prophet X release](https://github.com/apeirophobe/Patch-Grid-Releases/releases?q=prophet-x&expanded=true) · [0.9.8](https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8)
