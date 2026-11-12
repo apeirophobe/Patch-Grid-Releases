@@ -1,18 +1,38 @@
-# Patch Grid Releases
+<p align="center">
+  <img src="brand/apeirophobe-logo.jpg" alt="apeirophobe" width="320"/>
+</p>
 
-Signed macOS installers for Patch Grid apps live in **[Releases](https://github.com/apeirophobe/Patch-Grid-Releases/releases)** — not in this git tree.
+<h1 align="center">Patch Grid Releases</h1>
 
-## How releases are organized
+<p align="center">
+  Signed macOS installers for apeirophobe Patch Grid apps.
+</p>
 
-One GitHub Release per synth + version:
+<p align="center">
+  <a href="https://github.com/apeirophobe/Patch-Grid-Releases/releases"><strong>All releases</strong></a>
+  ·
+  <a href="https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8"><strong>Prophet X 0.9.8</strong></a>
+</p>
 
-| Tag | Example |
-| --- | --- |
-| `prophet-x-X.Y.Z` | [prophet-x-0.9.8](https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8) |
-| `ob-6-X.Y.Z` | (future) |
+---
 
-Each release attaches the `.pkg` and `.sha256` checksum.
+## Downloads
 
-## Current downloads
+Installers are published as **GitHub Release** assets (not in this git tree).
 
-- **Prophet X** — [latest Prophet X release](https://github.com/apeirophobe/Patch-Grid-Releases/releases?q=prophet-x&expanded=true) · [0.9.8](https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8)
+| Synth | Latest | Tag pattern |
+| --- | --- | --- |
+| **Prophet X** | [prophet-x-0.9.8](https://github.com/apeirophobe/Patch-Grid-Releases/releases/tag/prophet-x-0.9.8) | `prophet-x-X.Y.Z` |
+
+Each release includes the universal `.pkg` and a `.sha256` checksum.
+
+## Prophet X Patch Grid 0.9.8
+
+Universal macOS installer (Apple silicon + Intel): Standalone, AU, VST3, and PDF manual. Developer ID signed and notarized.
+
+- [Download `.pkg`](https://github.com/apeirophobe/Patch-Grid-Releases/releases/download/prophet-x-0.9.8/ProphetXPatchGrid-0.9.8-universal.pkg)
+- [SHA-256](https://github.com/apeirophobe/Patch-Grid-Releases/releases/download/prophet-x-0.9.8/ProphetXPatchGrid-0.9.8-universal.pkg.sha256)
+
+---
+
+<p align="center"><sub>Software for curious synthesists · <a href="https://github.com/apeirophobe">apeirophobe</a></sub></p>
